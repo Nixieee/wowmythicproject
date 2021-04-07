@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="wowmythicproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-1M-LTS">
+                                <rect key="frame" x="190" y="256" width="34" height="37"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOv-Wn-jgQ">
+                                <rect key="frame" x="186" y="337" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyb-RV-xxO">
+                                <rect key="frame" x="186" y="366" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85F-jB-g78">
+                                <rect key="frame" x="186" y="395" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPA-aC-O6I">
+                                <rect key="frame" x="186" y="424" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This week trash affixes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TqZ-Se-LWn">
+                                <rect key="frame" x="82.5" y="149" width="249" height="29"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TqZ-Se-LWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="40q-6f-22F"/>
+                            <constraint firstItem="lyb-RV-xxO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Cy-Li-U8Q"/>
+                            <constraint firstItem="pPA-aC-O6I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dn9-7d-Ecu"/>
+                            <constraint firstItem="iI3-1M-LTS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FwU-0f-djr"/>
+                            <constraint firstItem="vOv-Wn-jgQ" firstAttribute="top" secondItem="iI3-1M-LTS" secondAttribute="bottom" constant="44" id="OwE-Gg-wF4"/>
+                            <constraint firstItem="vOv-Wn-jgQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rox-Gc-Q6B"/>
+                            <constraint firstItem="85F-jB-g78" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U8p-Ru-yrh"/>
+                            <constraint firstItem="TqZ-Se-LWn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="105" id="cZC-ke-DES"/>
+                            <constraint firstItem="iI3-1M-LTS" firstAttribute="top" secondItem="TqZ-Se-LWn" secondAttribute="bottom" constant="78" id="czF-Dx-os3"/>
+                            <constraint firstItem="lyb-RV-xxO" firstAttribute="top" secondItem="vOv-Wn-jgQ" secondAttribute="bottom" constant="8" id="g0n-2q-aZx"/>
+                            <constraint firstItem="pPA-aC-O6I" firstAttribute="top" secondItem="85F-jB-g78" secondAttribute="bottom" constant="8" id="k7v-Cb-vvx"/>
+                            <constraint firstItem="85F-jB-g78" firstAttribute="top" secondItem="lyb-RV-xxO" secondAttribute="bottom" constant="8" id="ycg-27-RI0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="LabelFour" destination="pPA-aC-O6I" id="Hxk-em-NWC"/>
+                        <outlet property="LabelOne" destination="vOv-Wn-jgQ" id="t0r-z8-sZv"/>
+                        <outlet property="LabelThree" destination="85F-jB-g78" id="veJ-mp-ITr"/>
+                        <outlet property="LabelTwo" destination="lyb-RV-xxO" id="81e-UW-Qti"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="115"/>
+        </scene>
+    </scenes>
+</document>

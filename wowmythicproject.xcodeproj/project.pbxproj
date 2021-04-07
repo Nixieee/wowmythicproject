@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452EDC86261CE2BA008DE4BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDC85261CE2BA008DE4BC /* AppDelegate.swift */; };
+		452EDC88261CE2BA008DE4BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDC87261CE2BA008DE4BC /* SceneDelegate.swift */; };
+		452EDC8A261CE2BA008DE4BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDC89261CE2BA008DE4BC /* ViewController.swift */; };
+		452EDC8D261CE2BA008DE4BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452EDC8B261CE2BA008DE4BC /* Main.storyboard */; };
+		452EDC8F261CE2BF008DE4BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452EDC8E261CE2BF008DE4BC /* Assets.xcassets */; };
+		452EDC92261CE2BF008DE4BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452EDC90261CE2BF008DE4BC /* LaunchScreen.storyboard */; };
+		452EDC9D261CEB55008DE4BC /* AffixManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDC9C261CEB55008DE4BC /* AffixManager.swift */; };
+		452EDC9F261CEBF3008DE4BC /* AffixModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDC9E261CEBF3008DE4BC /* AffixModel.swift */; };
+		452EDCA1261D8DFD008DE4BC /* AffixData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452EDCA0261D8DFD008DE4BC /* AffixData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		452EDC82261CE2BA008DE4BC /* wowmythicproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wowmythicproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EDC85261CE2BA008DE4BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		452EDC87261CE2BA008DE4BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		452EDC89261CE2BA008DE4BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		452EDC8C261CE2BA008DE4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		452EDC8E261CE2BF008DE4BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		452EDC91261CE2BF008DE4BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		452EDC93261CE2BF008DE4BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452EDC9C261CEB55008DE4BC /* AffixManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffixManager.swift; sourceTree = "<group>"; };
+		452EDC9E261CEBF3008DE4BC /* AffixModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffixModel.swift; sourceTree = "<group>"; };
+		452EDCA0261D8DFD008DE4BC /* AffixData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffixData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452EDC7F261CE2BA008DE4BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452EDC79261CE2BA008DE4BC = {
+			isa = PBXGroup;
+			children = (
+				452EDC84261CE2BA008DE4BC /* wowmythicproject */,
+				452EDC83261CE2BA008DE4BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		452EDC83261CE2BA008DE4BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452EDC82261CE2BA008DE4BC /* wowmythicproject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452EDC84261CE2BA008DE4BC /* wowmythicproject */ = {
+			isa = PBXGroup;
+			children = (
+				452EDC9A261CEB27008DE4BC /* Model */,
+				452EDC9B261CEB2C008DE4BC /* View */,
+				452EDC99261CEB1B008DE4BC /* Controller */,
+				452EDC85261CE2BA008DE4BC /* AppDelegate.swift */,
+				452EDC87261CE2BA008DE4BC /* SceneDelegate.swift */,
+				452EDC8E261CE2BF008DE4BC /* Assets.xcassets */,
+				452EDC90261CE2BF008DE4BC /* LaunchScreen.storyboard */,
+				452EDC93261CE2BF008DE4BC /* Info.plist */,
+			);
+			path = wowmythicproject;
+			sourceTree = "<group>";
+		};
+		452EDC99261CEB1B008DE4BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				452EDC89261CE2BA008DE4BC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		452EDC9A261CEB27008DE4BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				452EDC9C261CEB55008DE4BC /* AffixManager.swift */,
+				452EDC9E261CEBF3008DE4BC /* AffixModel.swift */,
+				452EDCA0261D8DFD008DE4BC /* AffixData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		452EDC9B261CEB2C008DE4BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				452EDC8B261CE2BA008DE4BC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452EDC81261CE2BA008DE4BC /* wowmythicproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452EDC96261CE2BF008DE4BC /* Build configuration list for PBXNativeTarget "wowmythicproject" */;
+			buildPhases = (
+				452EDC7E261CE2BA008DE4BC /* Sources */,
+				452EDC7F261CE2BA008DE4BC /* Frameworks */,
+				452EDC80261CE2BA008DE4BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wowmythicproject;
+			productName = wowmythicproject;
+			productReference = 452EDC82261CE2BA008DE4BC /* wowmythicproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452EDC7A261CE2BA008DE4BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Nikolay Kalchev";
+				TargetAttributes = {
+					452EDC81261CE2BA008DE4BC = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 452EDC7D261CE2BA008DE4BC /* Build configuration list for PBXProject "wowmythicproject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 452EDC79261CE2BA008DE4BC;
+			productRefGroup = 452EDC83261CE2BA008DE4BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452EDC81261CE2BA008DE4BC /* wowmythicproject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452EDC80261CE2BA008DE4BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDC92261CE2BF008DE4BC /* LaunchScreen.storyboard in Resources */,
+				452EDC8F261CE2BF008DE4BC /* Assets.xcassets in Resources */,
+				452EDC8D261CE2BA008DE4BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452EDC7E261CE2BA008DE4BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EDC8A261CE2BA008DE4BC /* ViewController.swift in Sources */,
+				452EDC86261CE2BA008DE4BC /* AppDelegate.swift in Sources */,
+				452EDCA1261D8DFD008DE4BC /* AffixData.swift in Sources */,
+				452EDC9F261CEBF3008DE4BC /* AffixModel.swift in Sources */,
+				452EDC9D261CEB55008DE4BC /* AffixManager.swift in Sources */,
+				452EDC88261CE2BA008DE4BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		452EDC8B261CE2BA008DE4BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452EDC8C261CE2BA008DE4BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		452EDC90261CE2BF008DE4BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				452EDC91261CE2BF008DE4BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452EDC94261CE2BF008DE4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		452EDC95261CE2BF008DE4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452EDC97261CE2BF008DE4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QG35T97DS;
+				INFOPLIST_FILE = wowmythicproject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikolayKalchev.wowmythicproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		452EDC98261CE2BF008DE4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QG35T97DS;
+				INFOPLIST_FILE = wowmythicproject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NikolayKalchev.wowmythicproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452EDC7D261CE2BA008DE4BC /* Build configuration list for PBXProject "wowmythicproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452EDC94261CE2BF008DE4BC /* Debug */,
+				452EDC95261CE2BF008DE4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452EDC96261CE2BF008DE4BC /* Build configuration list for PBXNativeTarget "wowmythicproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452EDC97261CE2BF008DE4BC /* Debug */,
+				452EDC98261CE2BF008DE4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 452EDC7A261CE2BA008DE4BC /* Project object */;
+}
